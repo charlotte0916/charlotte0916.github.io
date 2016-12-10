@@ -25,5 +25,15 @@ article {
 
 
 /*
+container
+*/
+
+container {
+    width: 90%;
+    margin: auto;
+}
+
+
+/*
 常用圖片設定
 */

@@ -22,6 +22,54 @@ h1 {
     text-align: center;
 }
 
+ul {
+    position: fixed;
+    top: 100px;
+    left: -40px;
+}
+
+ul>li {
+    padding: 20px;
+    width: 200px;
+    list-style: none;
+    background-color: #fff1df;
+    border: 2px solid white;
+    color: #626262;
+}
+
+a {
+    text-decoration: none;
+    color: #626262;
+}
+
+li:hover {
+    background-color: #ddcbb3;
+    color: black;
+}
+
+li:hover>ul {
+    display: block;
+}
+
+li {
+    position: relative;
+}
+
+li>ul {
+    position: absolute;
+    left: 157px;
+    top: -2px;
+    display: none;
+}
+
+li>ul>li {
+    width: 100px;
+    list-style: none;
+    background-color: #fff1df;
+    border: 2px solid white;
+    color: #626262;
+}
+
 
 /*
 引文設定
@@ -99,7 +147,7 @@ blockquote {
     color: #ed9191;
     font-family: sans-serif;
     font-weight: 100;
-    border: 2px solid #ed9191;
+    border: px solid #ed9191;
     background-color: #ffe8e8;
 }
 
