@@ -33,7 +33,6 @@ ul>li {
     width: 200px;
     list-style: none;
     background-color: #fff1df;
-    border: 2px solid white;
     color: #626262;
 }
 
@@ -42,7 +41,7 @@ a {
     color: #626262;
 }
 
-li:hover {
+ul>li:hover {
     background-color: #ddcbb3;
     color: black;
 }
@@ -57,17 +56,48 @@ li {
 
 li>ul {
     position: absolute;
-    left: 157px;
-    top: -2px;
+    left: 160px;
+    top: 0px;
     display: none;
 }
 
 li>ul>li {
     width: 100px;
     list-style: none;
-    background-color: #fff1df;
-    border: 2px solid white;
+    background-color: #dedede;
     color: #626262;
+    position: relative;
+}
+
+li>ul>li:hover {
+    width: 100px;
+    list-style: none;
+    background-color: #8e8d8d;
+    color: #ffffff;
+    position: relative;
+}
+
+ul>li>.triangle {
+    display: none;
+    width: 0px;
+    height: 0px;
+    border: 20px solid;
+    position: absolute;
+    left: 190px;
+    top: 10px;
+    border-color: transparent transparent transparent #ddcbb3;
+}
+
+ul>li:hover>.triangle {
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 20px solid;
+    position: absolute;
+    left: 190px;
+    top: 10px;
+    border-color: transparent transparent transparent #ddcbb3;
+    z-index: 1;
 }
 
 
