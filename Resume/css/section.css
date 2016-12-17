@@ -1,0 +1,25 @@
+ul>li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+li:first-child {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.col-md-3 {
+    background-image: url(https://unsplash.it/1500/500?random);
+    line-height: 200px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+
